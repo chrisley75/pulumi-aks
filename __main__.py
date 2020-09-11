@@ -42,7 +42,7 @@ aks = KubernetesCluster(
     service_principal={"client_id": app.application_id, "client_secret": sppwd.value},
     default_node_pool={
         "name": "type1",
-        "node_count": 2,
+        "node_count": 1,
         "vm_size": "Standard_B2ms",
     },
 )
